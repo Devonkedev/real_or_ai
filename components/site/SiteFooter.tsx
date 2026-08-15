@@ -14,9 +14,6 @@ export function SiteFooter() {
           <Link href="/play" className="hover:text-ink">
             Play
           </Link>
-          <Link href="/archive" className="hover:text-ink">
-            Archive
-          </Link>
           <Link href="/about" className="hover:text-ink">
             About
           </Link>

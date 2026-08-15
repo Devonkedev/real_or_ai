@@ -43,8 +43,7 @@ npm run lint    # eslint
   AI-generated) across all seven categories. Every real artifact cites a
   verifiable source (Wikimedia Commons, Wikisource, Imperial War Museums,
   legislation.gov.uk); every AI artifact discloses its fabricated status and
-  the specific tells that give it away. See `AGENTS.md` for the full content
-  rules.
+  the specific tells that give it away.
 - `lib/game.ts` — round selection, scoring and result-classification logic.
 - `components/artifact/` — shared artifact rendering: the archival frame,
   the original SVG/CSS illustrations used for AI "photographs", posters and
@@ -52,16 +51,14 @@ npm run lint    # eslint
   documents.
 - `components/game/` — the `/play` state machine, question and reveal
   panels, and the results screen.
-- `components/archive/` — the `/archive` browser and card grid.
-- `app/` — routes: `/` (landing), `/play`, `/archive`, `/archive/[id]`,
-  `/about`.
+- `app/` — routes: `/` (landing), `/play`, `/about`.
 
 ## Adding an artifact
 
 Add a new entry to the `artifacts` array in `data/artifacts.ts` following the
 `RealArtifact` or `AiArtifact` shape from `types/artifact.ts`. No other code
-changes are required — the game engine, archive browser and filters all read
-from this single array.
+changes are required — the game engine and round selection read from this
+single array.
 
 ## Deploying to Vercel
 

@@ -74,7 +74,7 @@ export const RANK_DESCRIPTIONS: Record<ScoreRank, string> = {
   "CURIOUS CITIZEN":
     "You've got the instincts, but the line between record and reconstruction still gets you sometimes.",
   "THE AI ALMOST GOT YOU":
-    "The reconstructions had the upper hand this round. Worth another pass through the archive.",
+    "The reconstructions had the upper hand this round. Worth another pass through the exhibit.",
 };
 
 export type BlindSpot = "ai-leaning" | "real-leaning" | "balanced";

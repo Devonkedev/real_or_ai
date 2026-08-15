@@ -3,7 +3,6 @@ import { Container } from "./Container";
 
 const NAV_LINKS = [
   { href: "/play", label: "Play" },
-  { href: "/archive", label: "Archive" },
   { href: "/about", label: "About" },
 ];
 

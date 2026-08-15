@@ -37,7 +37,7 @@ export default function AboutPage() {
           built around that question, set against India&rsquo;s independence
           movement — a period rich enough in genuine photographs, posters,
           newspapers, speeches and documents that a fabrication can sit
-          comfortably alongside the real archive, and dangerous enough a
+          comfortably alongside the real record, and dangerous enough a
           period, if the fabrications go unlabelled, that getting the
           distinction wrong actually matters.
         </p>
@@ -49,8 +49,9 @@ export default function AboutPage() {
           credited collections — linked directly from its reveal. Nothing is
           invented and presented as fact. Every artifact marked{" "}
           <strong className="font-semibold text-ink">AI-generated</strong> is
-          clearly disclosed as a reconstruction the moment you ask, alongside
-          the specific historical or visual detail that gives it away.
+          clearly disclosed as a reconstruction the moment you answer,
+          alongside the specific historical or visual detail that gives it
+          away.
         </p>
         <p>
           The project sits at the intersection of a few disciplines: Indian
@@ -61,7 +62,7 @@ export default function AboutPage() {
         </p>
       </div>
 
-      <div className="mt-12 flex flex-col gap-3 border-t border-hairline pt-8 sm:flex-row">
+      <div className="mt-12 border-t border-hairline pt-8">
         <Button
           render={<Link href="/play" />}
           nativeButton={false}
@@ -70,15 +71,6 @@ export default function AboutPage() {
         >
           Start the Challenge
           <ArrowRight className="h-4 w-4" aria-hidden="true" />
-        </Button>
-        <Button
-          render={<Link href="/archive" />}
-          nativeButton={false}
-          variant="outline"
-          size="lg"
-          className="h-auto justify-center rounded-sm border-ink/25 px-7 py-3.5 text-sm font-semibold tracking-[0.08em] text-ink uppercase hover:bg-secondary"
-        >
-          Explore the Archive
         </Button>
       </div>
     </Container>

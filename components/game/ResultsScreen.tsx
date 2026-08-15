@@ -1,7 +1,6 @@
 "use client";
 
-import Link from "next/link";
-import { ArrowRight, RotateCcw } from "lucide-react";
+import { RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ScoreCountUp } from "./ScoreCountUp";
 import {
@@ -58,24 +57,14 @@ export function ResultsScreen({
         <p className="leading-relaxed text-ink-soft">{BLIND_SPOT_COPY[blindSpot]}</p>
       </div>
 
-      <div className="flex w-full flex-col gap-3 sm:flex-row">
+      <div className="flex w-full flex-col sm:items-center">
         <Button
           onClick={onPlayAgain}
           size="lg"
-          className="h-auto flex-1 justify-center rounded-sm bg-navy px-6 py-3.5 text-sm font-semibold tracking-[0.08em] text-parchment uppercase hover:bg-navy-soft"
+          className="h-auto w-full justify-center rounded-sm bg-navy px-6 py-3.5 text-sm font-semibold tracking-[0.08em] text-parchment uppercase hover:bg-navy-soft sm:w-auto sm:px-10"
         >
           <RotateCcw className="h-4 w-4" aria-hidden="true" />
           Play Again
-        </Button>
-        <Button
-          render={<Link href="/archive" />}
-          nativeButton={false}
-          variant="outline"
-          size="lg"
-          className="h-auto flex-1 justify-center rounded-sm border-ink/25 px-6 py-3.5 text-sm font-semibold tracking-[0.08em] text-ink uppercase hover:bg-secondary"
-        >
-          Explore the Archive
-          <ArrowRight className="h-4 w-4" aria-hidden="true" />
         </Button>
       </div>
     </div>

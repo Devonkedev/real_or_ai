@@ -594,7 +594,3 @@ export const artifacts: Artifact[] = [
     ],
   },
 ];
-
-export function getArtifactById(id: string): Artifact | undefined {
-  return artifacts.find((a) => a.id === id);
-}
