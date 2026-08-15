@@ -21,11 +21,24 @@ export const CATEGORY_LABELS: Record<ArtifactCategory, string> = {
   propaganda: "Propaganda Material",
 };
 
-/** A real archival photograph, poster scan, newspaper front page, etc. */
+/**
+ * A photograph, poster scan or newspaper front page — a real archival image,
+ * or (for AI artifacts) a generated one. Posters and newspapers can carry an
+ * `overlay` of crisp, accessible printed text on top of the image, so the
+ * headline stays real DOM text (legible and screen-reader friendly)
+ * regardless of how well any generated background renders text.
+ */
 export interface ArtifactVisualImage {
   kind: "image";
   src: string;
   alt: string;
+  overlay?: {
+    kind: "poster" | "newspaper";
+    headline?: string;
+    tagline?: string;
+    masthead?: string;
+    dateline?: string;
+  };
 }
 
 /** A typographic treatment for speeches, letters and documents. */
@@ -36,23 +49,7 @@ export interface ArtifactVisualQuote {
   context?: string;
 }
 
-/** An original illustrated reconstruction used to stand in for an AI-generated artifact. */
-export interface ArtifactVisualIllustration {
-  kind: "illustration";
-  render: "portrait-photo" | "crowd-photo" | "poster" | "newspaper";
-  variant: 1 | 2 | 3 | 4 | 5 | 6;
-  tone?: "campaign" | "notice";
-  headline?: string;
-  masthead?: string;
-  dateline?: string;
-  tagline?: string;
-  caption?: string;
-}
-
-export type ArtifactVisual =
-  | ArtifactVisualImage
-  | ArtifactVisualQuote
-  | ArtifactVisualIllustration;
+export type ArtifactVisual = ArtifactVisualImage | ArtifactVisualQuote;
 
 interface ArtifactCommon {
   id: string;

@@ -517,21 +517,18 @@ export const artifacts: Artifact[] = [
     date: "claimed: 1946",
     location: "claimed: an unnamed railway station, North India",
     visual: {
-      kind: "illustration",
-      render: "crowd-photo",
-      variant: 1,
-      caption:
-        "A leader addresses a crowd from a railway carriage window during a whistle-stop tour.",
+      kind: "image",
+      src: "/artifacts/ai/ai-photo-railway-crowd.jpg",
+      alt: "A row of women in pale dress stand on a railway platform beside a train carriage.",
     },
     explanation:
       "This image presents itself as a photograph of a nationalist leader addressing supporters from a train window during a station stop on a campaign tour — the kind of scene widely photographed in the mid-1940s.",
     historicalContext:
       "Whistle-stop crowds were a real and well-documented feature of the 1940s political trail — leaders including Nehru routinely spoke from train windows and running boards to crowds gathered along the route. That genuine pattern is exactly what makes an invented version of the scene easy to believe at a glance.",
     deceptionDetails: [
-      "The raised hand at the centre of the crowd shows six fingers — a classic generative-image error.",
-      "The bunting strung along the platform alternates the tricolour in the wrong order on neighbouring flags, something no period printer would have produced.",
-      "Several faces in the back rows repeat with identical features, a sign of a tiled crowd rather than a photographed one.",
-      "The station signage renders as illegible pseudo-script rather than real Devanagari, Urdu or Roman lettering.",
+      "The women's headscarves and dress silhouettes repeat with only minor variation down the length of the platform, a common tell of an AI-generated crowd padding out a scene from a smaller set of figures.",
+      "No specific station, date, or press credit can be matched to this image in any archive, despite railway-platform crowds being a well-photographed genre of the period.",
+      "The uniform pale clothing worn by the entire crowd is inconsistent with the mix of everyday dress that real station crowds of the period show in genuine photographs.",
     ],
   },
   {
@@ -544,20 +541,18 @@ export const artifacts: Artifact[] = [
     date: "claimed: early 1930s",
     location: "claimed: a village courtyard, undisclosed",
     visual: {
-      kind: "illustration",
-      render: "crowd-photo",
-      variant: 2,
-      caption: "Women spin cotton on charkhas in a courtyard during the boycott of foreign cloth.",
+      kind: "image",
+      src: "/artifacts/ai/ai-photo-charkha-courtyard.jpg",
+      alt: "A woman sits in a courtyard beside an implement presented as a charkha spinning wheel.",
     },
     explanation:
       "This image presents itself as a photograph of women spinning their own khadi at home as part of the swadeshi boycott of foreign cloth — a domestic ritual repeated in thousands of courtyards through the 1920s and 30s.",
     historicalContext:
       "Home spinning became a genuine mass civic ritual after Gandhi made the charkha a symbol of self-reliance from 1920 onward, and authentic photographs of women's spinning circles are common in the archival record — which is exactly why a generated version of the scene reads as plausible.",
     deceptionDetails: [
-      "Every charkha in the courtyard is mechanically identical down to the spoke pattern; real handmade charkhas of the period varied in size, wood grain and finish.",
-      "The spun thread runs as an unbroken, evenly lit line rather than the slightly uneven, fuzzed thread hand-spinning actually produces.",
-      "One woman's sari drapes in two contradictory directions across the same shoulder.",
-      "The courtyard's stone paving repeats in an obvious identical tile every few feet.",
+      "The object beside her, presented as a charkha, does not resolve into a coherent wheel-and-spindle mechanism on close inspection — the spokes trail off without connecting to anything that could actually spin thread.",
+      "Her hand position does not match the practised two-handed technique — one hand turning the wheel, the other drawing thread — that operating a real charkha requires.",
+      "No specific courtyard, village, or photographer credit can be traced for this image in any archive.",
     ],
   },
   {
@@ -570,20 +565,18 @@ export const artifacts: Artifact[] = [
     date: "claimed: 1945",
     location: "claimed: outside a district jail, undisclosed",
     visual: {
-      kind: "illustration",
-      render: "crowd-photo",
-      variant: 3,
-      caption: "A group of released political prisoners is greeted at a jail gate.",
+      kind: "image",
+      src: "/artifacts/ai/ai-photo-jail-release.jpg",
+      alt: "A group of people walk out through a large stone archway gate, greeted by others waiting outside.",
     },
     explanation:
       "This image presents itself as a photograph documenting the release of Congress prisoners jailed during Quit India, greeted by family and well-wishers at the gate.",
     historicalContext:
       "Mass releases like this genuinely took place: between 1945 and early 1946 the colonial government released most of the roughly 100,000 people detained during the 1942 crackdown, and jail-gate reunions were a real, frequently photographed genre of the period — which is what makes this fabrication so quietly convincing.",
     deceptionDetails: [
-      "The jail gate's ironwork includes a hinge that is structurally attached to nothing.",
-      "A wristwatch worn by a man in the foreground would have been an unusual luxury import in this setting, and its face blurs into illegible numerals on close inspection.",
-      "Shadows fall in two different directions across the same courtyard, implying two light sources rather than one sun.",
-      "No specific jail, prisoner, or press credit for this image can be traced in any archive — it exists nowhere prior to this reconstruction.",
+      "The stone voussoirs forming the archway are all identically sized and evenly spaced, unlike the irregular, hand-cut stonework typical of real colonial-era jail architecture.",
+      "No specific jail, release date, or list of prisoners matches this scene in any archive, despite the mass releases of 1945–46 being well documented.",
+      "The group's shadows fall at a slightly different angle than the shadow cast by the gate itself, implying two light sources rather than one sun.",
     ],
   },
   {
@@ -596,21 +589,23 @@ export const artifacts: Artifact[] = [
     date: "claimed: 1921",
     location: "claimed: Bombay Presidency",
     visual: {
-      kind: "illustration",
-      render: "poster",
-      variant: 1,
-      tone: "campaign",
-      headline: "BOYCOTT FOREIGN CLOTH",
-      tagline: "Spin Your Own. Wear Khadi. Save Swaraj.",
+      kind: "image",
+      src: "/artifacts/ai/ai-poster-noncooperation-charkha.jpg",
+      alt: "An aged, framed print of an ornate spinning-wheel motif, photographed at an angle.",
+      overlay: {
+        kind: "poster",
+        headline: "BOYCOTT FOREIGN CLOTH",
+        tagline: "Spin Your Own. Wear Khadi. Save Swaraj.",
+      },
     },
     explanation:
       "This poster presents itself as Non-Cooperation Movement material from 1921, urging the boycott of foreign cloth and the wearing of khadi, built around a charkha emblem.",
     historicalContext:
       "The boycott of foreign cloth really was a central plank of the Non-Cooperation Movement of 1920–22, and genuine posters, handbills, and bonfires of foreign cloth were widespread — which is why a fabricated poster on this exact theme reads as entirely plausible.",
     deceptionDetails: [
-      "The wheel at the centre is the 24-spoke Ashoka Chakra used on India's national flag adopted in 1947 — a symbol that did not exist publicly until 26 years after this poster's claimed 1921 date. The 1920s charkha symbol looked like an actual spinning wheel, not this stylised chakra.",
-      "The lettering uses a bold geometric sans-serif in a style that did not appear in Indian print until digital type design decades later.",
-      "The border repeats saffron–green–white–saffron–green–white rather than the fixed saffron-white-green order used on every Congress flag of the period.",
+      "The wheel's spokes taper and blur unevenly rather than radiating with the mechanical regularity a real printed lithograph would have.",
+      "No copy of this design appears in any catalogued collection of Non-Cooperation-era print material.",
+      "The ornate framing style borrows from devotional print conventions that sit oddly with a boycott-campaign poster, a genre that favoured blunter, more utilitarian design.",
     ],
   },
   {
@@ -623,22 +618,23 @@ export const artifacts: Artifact[] = [
     date: "claimed: 1942",
     location: "claimed: undisclosed",
     visual: {
-      kind: "illustration",
-      render: "poster",
-      variant: 2,
-      tone: "campaign",
-      headline: "WOMEN, JOIN THE AUGUST STRUGGLE",
-      tagline: "Every Home a Fortress of Freedom",
+      kind: "image",
+      src: "/artifacts/ai/ai-poster-women-quit-india.jpg",
+      alt: "An aged print of a flag on a pole, photographed against a plain backdrop.",
+      overlay: {
+        kind: "poster",
+        headline: "WOMEN, JOIN THE AUGUST STRUGGLE",
+        tagline: "Every Home a Fortress of Freedom",
+      },
     },
     explanation:
       "This poster presents itself as a 1942 appeal calling on women specifically to join the Quit India movement, echoing the real, prominent role women played in that year's underground struggle.",
     historicalContext:
       "Women played a large and often underappreciated role in Quit India — Aruna Asaf Ali famously hoisted the flag at Gowalia Tank Maidan after the senior leadership was arrested, and Usha Mehta ran a secret Congress Radio station. Genuine appeals to women were part of the real print culture of the movement, which is what makes an invented one plausible.",
     deceptionDetails: [
-      "The illustrated hand holding the flagpole has an extra knuckle joint and no visible thumb.",
-      "The flag being raised shows white at the top rather than saffron.",
-      "The date in the corner is rendered with a drop-shadow effect that 1940s letterpress or lithography could not produce.",
-      "The printer's imprint line at the bottom cites a press name that appears in no catalogue of period print shops.",
+      "The flag's fabric folds in ways inconsistent with a single, coherent direction of wind or motion.",
+      "No matching design appears in any archive of 1942 print material aimed specifically at women.",
+      "The tricolour's stripe proportions shift subtly across the flag's length, something a single printed or painted flag would not do.",
     ],
   },
   {
@@ -651,21 +647,23 @@ export const artifacts: Artifact[] = [
     date: "claimed: August 1942",
     location: "claimed: Punjab Province",
     visual: {
-      kind: "illustration",
-      render: "poster",
-      variant: 3,
-      tone: "notice",
-      headline: "NOTICE TO THE PUBLIC",
-      tagline: "Unlawful assembly will be dispersed by force.",
+      kind: "image",
+      src: "/artifacts/ai/ai-propaganda-colonial-warning.jpg",
+      alt: "An aged official-looking certificate with a crest and dense printed text, matted and framed.",
+      overlay: {
+        kind: "poster",
+        headline: "NOTICE TO THE PUBLIC",
+        tagline: "Unlawful assembly will be dispersed by force.",
+      },
     },
     explanation:
       "This presents itself as an official colonial government notice warning the public against joining unlawful assemblies during the Quit India disturbances of August 1942.",
     historicalContext:
       "The colonial government did issue real warnings, curfew orders, and collective fines under the Defence of India Rules during 1942, including public notices posted in towns — the genre is entirely authentic, even though this specific notice is not.",
     deceptionDetails: [
-      "The government crest in the header combines elements of two official seals that were never used together.",
-      "No matching notice appears in the Punjab Police's Abstracts of Intelligence or the National Archives of India catalogue for August 1942, despite an unusually well-preserved paper trail for the province.",
-      "The English prose uses phrasing ('individuals are advised to refrain from') more typical of late-20th-century bureaucratic writing than the more formal, legalistic constructions used in 1940s colonial notices.",
+      "The central crest blends heraldic elements that do not correspond to any real government seal of the period.",
+      "No matching notice appears in the Punjab Police's Abstracts of Intelligence or the National Archives of India catalogue for August 1942.",
+      "The decorative scrollwork border is more ornate than the plain, utilitarian printing style used for genuine colonial administrative notices.",
     ],
   },
   {
@@ -678,22 +676,24 @@ export const artifacts: Artifact[] = [
     date: "claimed: 6 April 1930",
     location: "claimed: Delhi",
     visual: {
-      kind: "illustration",
-      render: "newspaper",
-      variant: 1,
-      masthead: "THE DELHI SENTINEL",
-      headline: "THOUSANDS GATHER AS SALT MARCH REACHES COAST",
-      dateline: "6 April 1930",
+      kind: "image",
+      src: "/artifacts/ai/ai-newspaper-sentinel.jpg",
+      alt: "An extreme close-up of aged, densely printed newsprint at an angle.",
+      overlay: {
+        kind: "newspaper",
+        masthead: "THE DELHI SENTINEL",
+        headline: "THOUSANDS GATHER AS SALT MARCH REACHES COAST",
+        dateline: "6 April 1930",
+      },
     },
     explanation:
       "This presents itself as the front page of a Delhi daily called The Delhi Sentinel, reporting the Salt March's arrival at Dandi on 6 April 1930 — the day Gandhi broke the salt law by picking up a lump of natural salt on the beach.",
     historicalContext:
       "The real arrival of the march at Dandi, and Gandhi's symbolic breaking of the salt law, genuinely was front-page news across India and internationally within days — so a fabricated front page describing a real event is especially deceptive.",
     deceptionDetails: [
-      "No newspaper called The Delhi Sentinel appears in the historical listings of the Registrar of Newspapers for India or in any library catalogue of the period.",
-      "The masthead is set in a clean modern sans-serif; Indian dailies of 1930 set their mastheads in serif or blackletter-influenced display type.",
-      "The body columns run edge-to-edge with no visible column rules, a layout convention that did not appear in Indian newspapers until decades later.",
-      "The byline mixes two incompatible period conventions for attributing wire versus local reporting.",
+      "The printed text, at any zoom level, resolves into dense pseudo-characters that mimic the texture of print without ever forming actual legible words — a hallmark of generated 'text.'",
+      "No paper called The Delhi Sentinel appears in the historical listings of the Registrar of Newspapers for India or in any library catalogue of the period.",
+      "The paper's fold and perspective do not correspond to how a flat newspaper page actually lies when photographed on a surface.",
     ],
   },
   {
@@ -706,21 +706,24 @@ export const artifacts: Artifact[] = [
     date: "claimed: 15 August 1947",
     location: "claimed: undisclosed",
     visual: {
-      kind: "illustration",
-      render: "newspaper",
-      variant: 2,
-      masthead: "THE SWARAJ HERALD",
-      headline: "AT MIDNIGHT, A NATION AWAKES",
-      dateline: "15 August 1947",
+      kind: "image",
+      src: "/artifacts/ai/ai-newspaper-swaraj-herald.jpg",
+      alt: "An extreme close-up of aged, densely printed newsprint at an angle.",
+      overlay: {
+        kind: "newspaper",
+        masthead: "THE SWARAJ HERALD",
+        headline: "AT MIDNIGHT, A NATION AWAKES",
+        dateline: "15 August 1947",
+      },
     },
     explanation:
       "This presents itself as the independence-day front page of a paper called The Swaraj Herald, reporting Nehru's midnight address and the transfer of power.",
     historicalContext:
       "15 August 1947 was, in reality, the single biggest newspaper day in the subcontinent's history, with every major daily running special independence editions — a fabricated one blends in easily among genuine front pages from that date.",
     deceptionDetails: [
+      "The printed text, at any zoom level, resolves into dense pseudo-characters that mimic the texture of print without ever forming actual legible words.",
       "No paper by this name appears in the British Library's South Asia newspaper holdings or the Registrar of Newspapers for India records for 1947.",
-      "The reported time of Nehru's address is given as 11:45 pm; the Constituent Assembly session that night is documented as beginning close to 11 pm and running past midnight, so the fabricated detail is subtly, not wildly, wrong.",
-      "The cover price is printed as '50 paise' — the decimal paisa this implies was not introduced until 1957; papers in 1947 priced copies in annas and pies.",
+      "The extreme close, angled framing shows no masthead, headline or page structure at all — an odd way to photograph what should be a readable front page.",
     ],
   },
   {
@@ -837,19 +840,18 @@ export const artifacts: Artifact[] = [
     date: "claimed: 1921",
     location: "claimed: a district town, United Provinces",
     visual: {
-      kind: "illustration",
-      render: "crowd-photo",
-      variant: 4,
-      caption: "A crowd gathers around a bonfire of foreign cloth during the Non-Cooperation Movement.",
+      kind: "image",
+      src: "/artifacts/ai/ai-photo-bonfire-cloth.jpg",
+      alt: "A large crowd gathers at night around a bonfire, silhouetted against the flames.",
     },
     explanation:
       "This presents itself as a photograph of a common ritual of the 1921 Non-Cooperation Movement: public bonfires of foreign cloth, where volunteers surrendered imported garments to be burned as a symbol of the swadeshi boycott.",
     historicalContext:
       "Bonfires of foreign cloth were genuinely widespread in 1921, with even senior political figures publicly burning imported clothing, and the ritual was heavily photographed and reported at the time — which is exactly why a fabricated version fits so easily among the real record.",
     deceptionDetails: [
-      "The smoke from the fire rises in two different directions at once, implying two separate wind currents within the same frame.",
-      "Several onlookers at the right edge of the crowd share an identical stance and outline, a sign of a duplicated rather than photographed group.",
-      "No caption, location or press credit for this specific bonfire could be matched to any 1921 newspaper report, despite the ritual being one of the most heavily covered events of the period.",
+      "The firelight illuminates the crowd with a uniform brightness that does not fall off with distance the way real firelight does.",
+      "No specific location, date, or press credit can be traced for this bonfire, despite the ritual being one of the most widely photographed features of the 1921 boycott.",
+      "Individual faces toward the back of the crowd blur into a repeating texture rather than resolving into distinct people.",
     ],
   },
   {
@@ -862,19 +864,18 @@ export const artifacts: Artifact[] = [
     date: "claimed: 1930",
     location: "claimed: an old city quarter, North India",
     visual: {
-      kind: "illustration",
-      render: "crowd-photo",
-      variant: 5,
-      caption: "A column of marchers carries a long banner through a narrow street.",
+      kind: "image",
+      src: "/artifacts/ai/ai-photo-protest-march.jpg",
+      alt: "A crowd fills a narrow old-city street lined with tall buildings on both sides.",
     },
     explanation:
       "This presents itself as a photograph of a civil disobedience march passing through a city's old quarter behind a long, hand-painted banner — a common scene from 1930s protest marches.",
     historicalContext:
       "Marches behind banners and placards were a genuine and constant feature of civil disobedience protests through the 1930s and 40s, photographed by both nationalist and colonial observers, which makes the general shape of this scene highly plausible.",
     deceptionDetails: [
-      "The banner's supporting poles bend at an angle the banner's own visible tension would make structurally impossible.",
-      "The buildings lining the street lean inward toward two different, inconsistent vanishing points rather than converging on a single perspective as a real photograph would.",
-      "Marchers near the back of the column shrink faster than the street's gentle, gradual perspective would account for — a common depth-of-field error.",
+      "No banner is actually visible anywhere in the frame despite the scene's premise — a mismatch between an AI image's prompted concept and what it actually renders is a common tell.",
+      "The buildings lining the left and right sides of the street do not quite share a consistent vanishing point.",
+      "No specific march, date, or location can be matched to this street scene in any archive.",
     ],
   },
   {
@@ -887,21 +888,23 @@ export const artifacts: Artifact[] = [
     date: "claimed: 1930",
     location: "claimed: undisclosed",
     visual: {
-      kind: "illustration",
-      render: "poster",
-      variant: 5,
-      tone: "campaign",
-      headline: "VANDE MATARAM",
-      tagline: "Mother, I Bow to Thee",
+      kind: "image",
+      src: "/artifacts/ai/ai-poster-vande-mataram.jpg",
+      alt: "An aged, ornately framed print of a robed figure beneath a decorative arch.",
+      overlay: {
+        kind: "poster",
+        headline: "VANDE MATARAM",
+        tagline: "Mother, I Bow to Thee",
+      },
     },
     explanation:
       "This poster presents itself as nationalist material built around \"Vande Mataram\" (\"I bow to thee, Mother\"), the hymn to the motherland that became an anthem of the independence movement and a rallying cry at protests through the 1930s and 40s.",
     historicalContext:
       "\"Vande Mataram\" genuinely was ubiquitous on real nationalist print material of the period — chanted at marches, printed on pamphlets and posters — so an invented poster built around the phrase fits comfortably alongside the authentic print culture of the movement.",
     deceptionDetails: [
-      "The phrase is rendered in a Latin-alphabet decorative typeface rather than any Indian script, something no genuine period poster aimed at an Indian audience would do.",
-      "The border pattern repeats a perfectly regular digital dash rather than the slightly uneven hand-set type ornaments used in period letterpress printing.",
-      "No poster matching this design appears in any of the major partition-and-independence poster collections held by Indian or UK archives.",
+      "The central figure's proportions and drapery blend motifs from several distinct regional art styles that would not typically appear together on a single period print.",
+      "No matching poster appears in any partition-era or independence-era print collection.",
+      "The decorative border text resolves into dense pseudo-script that never forms actual legible words at any zoom level.",
     ],
   },
   {
@@ -914,21 +917,23 @@ export const artifacts: Artifact[] = [
     date: "claimed: 1930",
     location: "claimed: Gujarat",
     visual: {
-      kind: "illustration",
-      render: "poster",
-      variant: 4,
-      tone: "campaign",
-      headline: "JOIN THE SALT SATYAGRAHA",
-      tagline: "Break the Law. Make the Salt.",
+      kind: "image",
+      src: "/artifacts/ai/ai-poster-salt-satyagraha.jpg",
+      alt: "An aged, framed printed document with dense illegible text, displayed on a wall.",
+      overlay: {
+        kind: "poster",
+        headline: "JOIN THE SALT SATYAGRAHA",
+        tagline: "Break the Law. Make the Salt.",
+      },
     },
     explanation:
       "This presents itself as a local call-to-action poster from 1930 urging villagers along the Salt March's route to join Gandhi's campaign to break the salt laws.",
     historicalContext:
       "Real handbills and local appeals genuinely circulated along the Salt March's route as it grew from 78 marchers to thousands by the time it reached Dandi, so a fabricated call-to-action poster from the same campaign is highly plausible.",
     deceptionDetails: [
-      "The emblem again uses the 24-spoke Ashoka Chakra wheel, a symbol that would not exist publicly for another 17 years.",
-      "The tagline's short, punchy imperative phrasing ('Break the Law. Make the Salt.') mirrors modern advertising copywriting rhythms rather than the longer, more formal appeals typical of 1930s nationalist print.",
-      "No item matching this poster's design appears in any catalogued collection of Salt March-era ephemera.",
+      "The body of the print resolves into dense pseudo-text that never forms actual legible words at any zoom level, unlike a real scanned or photographed document.",
+      "No item matching this design appears in any catalogued collection of Salt March-era ephemera.",
+      "The frame and mount style resemble a formally displayed certificate rather than the cheaply printed handbills real campaign posters of this kind actually were.",
     ],
   },
   {
@@ -941,21 +946,23 @@ export const artifacts: Artifact[] = [
     date: "claimed: April 1930",
     location: "claimed: Gujarat",
     visual: {
-      kind: "illustration",
-      render: "poster",
-      variant: 3,
-      tone: "notice",
-      headline: "CURFEW NOTICE",
-      tagline: "No person shall assemble in groups of more than five.",
+      kind: "image",
+      src: "/artifacts/ai/ai-propaganda-curfew-1930.jpg",
+      alt: "An aged printed notice in an ornate dark frame, with dense text beneath a heading.",
+      overlay: {
+        kind: "poster",
+        headline: "CURFEW NOTICE",
+        tagline: "No person shall assemble in groups of more than five.",
+      },
     },
     explanation:
       "This presents itself as a colonial government curfew order issued in response to the unrest following the Salt March and the arrests that followed Gandhi's breaking of the salt laws in April 1930.",
     historicalContext:
       "The colonial government did impose real curfews and prohibitory orders in Gujarat and elsewhere as civil disobedience spread after the Salt March, so the genre and timing are both entirely plausible.",
     deceptionDetails: [
-      "The order cites 'Section 144' by that shorthand — genuinely in use at the time — but the specific combination of penalties listed does not match the actual Criminal Procedure Code provisions in force in Bombay Presidency in 1930.",
-      "No matching order appears in the Bombay Presidency's published administrative reports for April 1930, despite those records being comprehensive for the period.",
-      "The typeface mixes two distinct type styles inconsistently within the same printed notice, something a single government press run would not produce.",
+      "The heading resolves into pseudo-letters that mimic the shapes of English words without actually spelling anything legible — a common tell of generated 'text' in images.",
+      "No matching curfew order appears in the Bombay Presidency's published administrative reports for April 1930, despite those records being comprehensive for the period.",
+      "The notice is mounted in an ornate display frame, an odd presentation for what should be a mass-printed public order meant to be pasted on walls.",
     ],
   },
   {
@@ -968,21 +975,23 @@ export const artifacts: Artifact[] = [
     date: "claimed: 1942",
     location: "claimed: undisclosed",
     visual: {
-      kind: "illustration",
-      render: "poster",
-      variant: 6,
-      tone: "campaign",
-      headline: "LOYALTY PAYS",
-      tagline: "Stand With the Empire in Its Hour of Need",
+      kind: "image",
+      src: "/artifacts/ai/ai-propaganda-loyalty-poster.jpg",
+      alt: "An aged poster with Union Jack bunting motifs and a central diamond panel.",
+      overlay: {
+        kind: "poster",
+        headline: "LOYALTY PAYS",
+        tagline: "Stand With the Empire in Its Hour of Need",
+      },
     },
     explanation:
       "This presents itself as a colonial-government propaganda poster from 1942 urging Indians to remain loyal to the British war effort during the Quit India crisis, offering an implicit promise of postwar reward.",
     historicalContext:
       "The colonial government did run real loyalty and war-support campaigns through 1942, especially aimed at princely states, the civil service and the army, so a poster on this exact theme is highly plausible.",
     deceptionDetails: [
-      "No poster with this slogan appears in the Imperial War Museums' or British Library's catalogued holdings of Indian-market wartime propaganda, despite those collections being extensive for 1942.",
-      "The word 'Empire' is set in a heavier, more modern slab-serif weight than the rest of the poster, inconsistent with a single period print run.",
-      "The phrase 'Loyalty Pays' uses a commercial-advertising register more typical of later 20th-century campaigns than 1940s colonial messaging, which favoured more formal appeals to duty.",
+      "The corner numerals resolve into a date that does not correspond to any coherent year for this poster's claimed 1942 origin — another common artifact of generated pseudo-text.",
+      "No poster with this slogan appears in the Imperial War Museums' or British Library's catalogued holdings of Indian-market wartime propaganda.",
+      "The Union Jack bunting motif is rendered with a painterly softness inconsistent with the crisp, mass-printed look of genuine wartime propaganda.",
     ],
   },
   {
@@ -995,21 +1004,24 @@ export const artifacts: Artifact[] = [
     date: "claimed: 13 April 1930",
     location: "claimed: Lahore",
     visual: {
-      kind: "illustration",
-      render: "newspaper",
-      variant: 1,
-      masthead: "THE PUNJAB TRIBUNE-EXTRA",
-      headline: "ELEVENTH ANNIVERSARY OF JALLIANWALA BAGH MARKED ACROSS PUNJAB",
-      dateline: "13 April 1930",
+      kind: "image",
+      src: "/artifacts/ai/ai-newspaper-punjab-tribune.jpg",
+      alt: "An extreme close-up of aged, densely printed newsprint at an angle.",
+      overlay: {
+        kind: "newspaper",
+        masthead: "THE PUNJAB TRIBUNE-EXTRA",
+        headline: "ELEVENTH ANNIVERSARY OF JALLIANWALA BAGH MARKED ACROSS PUNJAB",
+        dateline: "13 April 1930",
+      },
     },
     explanation:
       "This presents itself as a special edition marking the eleventh anniversary of the 1919 Jallianwala Bagh massacre, reporting commemorations held across Punjab on 13 April 1930.",
     historicalContext:
       "The Jallianwala Bagh anniversary genuinely was marked publicly and reported in the Indian press every year through this period, and 13 April 1930 fell just a month into the Salt March-era civil disobedience movement, when such commemorations carried particular political charge — a real and plausible news hook.",
     deceptionDetails: [
+      "The printed text, at any zoom level, resolves into dense pseudo-characters that mimic the texture of print without ever forming actual legible words.",
       "No paper called The Punjab Tribune-Extra appears in the historical listings of Punjab's newspaper registry; a real paper called The Tribune existed and still does, but under a different, unhyphenated name.",
-      "The masthead's typeface uses uniform digital letterspacing that period hot-metal typesetting could not reliably reproduce at that size.",
-      "The dateline and masthead are set in perfectly even black, while genuine surviving newsprint from this date shows visibly uneven ink density across the page.",
+      "The extreme close, angled framing shows no masthead, headline or page structure at all — an odd way to photograph what should be a readable front page.",
     ],
   },
   {
