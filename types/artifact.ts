@@ -40,7 +40,7 @@ export interface ArtifactVisualQuote {
 export interface ArtifactVisualIllustration {
   kind: "illustration";
   render: "portrait-photo" | "crowd-photo" | "poster" | "newspaper";
-  variant: 1 | 2 | 3 | 4;
+  variant: 1 | 2 | 3 | 4 | 5 | 6;
   tone?: "campaign" | "notice";
   headline?: string;
   masthead?: string;

@@ -271,6 +271,240 @@ export const artifacts: Artifact[] = [
     sourceName: "Wikipedia",
     sourceUrl: "https://en.wikipedia.org/wiki/Salt_March",
   },
+  {
+    id: "real-patel-portrait-1949",
+    type: "photograph",
+    title: "Sardar Patel, Portrait",
+    difficulty: "medium",
+    answer: "real",
+    date: "31 October 1949",
+    location: "India",
+    people: ["Vallabhbhai Patel"],
+    visual: {
+      kind: "image",
+      src: "/artifacts/patel-portrait-1949.jpg",
+      alt: "Studio portrait of Sardar Vallabhbhai Patel, taken on his 74th birthday, 1949",
+    },
+    explanation:
+      "As Deputy Prime Minister and Home Minister of independent India, Vallabhbhai Patel oversaw the integration of more than 500 princely states into the Indian Union between 1947 and 1949 — a feat of negotiation and pressure that earned him the title \"Iron Man of India.\" This portrait was taken on his 74th birthday, during the final stretch of that process and the drafting of the Constitution.",
+    whyReal:
+      "The photograph is a Government of India (Photo Division) work, precisely dated to 31 October 1949 — matching Patel's documented birth date of 31 October 1875.",
+    sourceName: "Photo Division, Government of India, via Wikimedia Commons",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Sardar_Patel.jpg",
+  },
+  {
+    id: "real-ghaffar-khan-1939",
+    type: "photograph",
+    title: "Khan Abdul Ghaffar Khan, Portrait",
+    difficulty: "hard",
+    answer: "real",
+    date: "1939",
+    location: "British India",
+    people: ["Khan Abdul Ghaffar Khan"],
+    visual: {
+      kind: "image",
+      src: "/artifacts/ghaffar-khan-1939.jpg",
+      alt: "Portrait photograph of Khan Abdul Ghaffar Khan, 1939",
+    },
+    explanation:
+      "Known as the \"Frontier Gandhi,\" Khan Abdul Ghaffar Khan founded the Khudai Khidmatgar (\"Servants of God\") movement — a Pashtun nonviolent resistance movement on the North-West Frontier that allied closely with the Indian National Congress throughout the independence struggle.",
+    whyReal:
+      "The photograph was taken by Nirmal Kumar Bose, a documented anthropologist who served as one of Gandhi's secretaries and wrote extensively on the movement, and was published in The Modern Review, a long-running Kolkata journal, in its September 1939 issue.",
+    sourceName: "The Modern Review (1939), via Wikimedia Commons",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Khan_Abdul_Ghaffar_Khan_1939.jpg",
+  },
+  {
+    id: "real-tilak-madras-1917",
+    type: "photograph",
+    title: "Tilak Awaited by Boy Scouts, Madras",
+    difficulty: "hard",
+    answer: "real",
+    date: "1917",
+    location: "Madras (Chennai)",
+    people: ["Bal Gangadhar Tilak"],
+    visual: {
+      kind: "image",
+      src: "/artifacts/tilak-madras-1917.jpg",
+      alt: "Indian boy scouts awaiting the arrival of Bal Gangadhar Tilak at the Central Station in Madras, 1917",
+    },
+    explanation:
+      "Taken as scouts awaited Bal Gangadhar Tilak's arrival at Madras Central Station in 1917 — the year Tilak, alongside Annie Besant, launched the Home Rule movement demanding self-government within the British Empire, a direct forerunner of the more radical independence demands that followed in the 1920s and 30s.",
+    whyReal:
+      "The photograph is credited to a press agency photographer and held in the Imperial War Museums collection, precisely dated to 1917.",
+    sourceName: "Imperial War Museums, via Wikimedia Commons",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Bal_Gangadhar_Tilak_in_Madras_1917.jpg",
+  },
+  {
+    id: "real-nehru-motilal-1929",
+    type: "photograph",
+    title: "Jawaharlal and Motilal Nehru, Lahore",
+    difficulty: "medium",
+    answer: "real",
+    date: "1929",
+    location: "Lahore",
+    people: ["Jawaharlal Nehru", "Motilal Nehru"],
+    visual: {
+      kind: "image",
+      src: "/artifacts/nehru-motilal-1929.jpg",
+      alt: "Jawaharlal Nehru, president-elect of the Lahore Congress session, with his father and outgoing president Motilal Nehru, 1929",
+    },
+    explanation:
+      "Taken as Jawaharlal Nehru succeeded his father Motilal as Congress president at the pivotal Lahore session of December 1929, where the party adopted the Purna Swaraj (complete independence) resolution and the tricolour was hoisted at midnight on the banks of the Ravi.",
+    whyReal:
+      "The photograph is credited via the Nehru Memorial Museum and Library's own photo archive, one of the most authoritative sources for photographs of the Nehru family.",
+    sourceName: "Nehru Memorial Museum and Library, via Wikimedia Commons",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Jawaharlal_Nehru_and_Motilal_Nehru_in_1929.jpg",
+  },
+  {
+    id: "real-ambedkar-cabinet-mission-1946",
+    type: "photograph",
+    title: "Ambedkar Arrives for Cabinet Mission Talks",
+    difficulty: "medium",
+    answer: "real",
+    date: "1946",
+    location: "New Delhi",
+    people: ["B. R. Ambedkar"],
+    visual: {
+      kind: "image",
+      src: "/artifacts/ambedkar-cabinet-mission-1946.jpg",
+      alt: "Dr. B. R. Ambedkar arriving to submit a memorandum to the British Cabinet Mission, New Delhi, 1946",
+    },
+    explanation:
+      "Shows Ambedkar arriving to present a memorandum to the Cabinet Mission sent by the British government in 1946 to negotiate the transfer of power, in which he pressed the case for constitutional safeguards for the Scheduled Castes ahead of independence.",
+    whyReal:
+      "The photograph is dated and captioned as part of the well-documented Cabinet Mission negotiations of 1946, a heavily photographed round of talks involving every major Indian political leader of the day.",
+    sourceName: "Wikimedia Commons",
+    sourceUrl:
+      "https://commons.wikimedia.org/wiki/File:Dr_BR_Ambedkar_on_arrival_for_talks_with_British_Cabinet_Mission_in_1946.jpg",
+  },
+  {
+    id: "real-prasad-champaran-1917",
+    type: "photograph",
+    title: "Rajendra Prasad in Champaran",
+    difficulty: "hard",
+    answer: "real",
+    date: "1917",
+    location: "Champaran, Bihar",
+    people: ["Rajendra Prasad", "Anugrah Narayan Sinha"],
+    visual: {
+      kind: "image",
+      src: "/artifacts/prasad-champaran-1917.jpg",
+      alt: "Rajendra Prasad with fellow nationalist Anugrah Narayan Sinha during the 1917 Champaran Satyagraha, Bihar",
+    },
+    explanation:
+      "Taken during the Champaran Satyagraha of 1917 — Gandhi's first major civil disobedience campaign in India, organised on behalf of indigo farmers forced into exploitative contracts by British planters. Rajendra Prasad, later independent India's first president, and Anugrah Narayan Sinha were among the local leaders who joined Gandhi's inquiry into conditions there.",
+    whyReal:
+      "The image is reproduced from Anugrah Abhinandan Granth, a 1946 felicitation volume documenting Sinha's public career, and is dated to the 1917 campaign itself.",
+    sourceName: "Wikimedia Commons",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Dr_Rajendra_Pd._DR.Anugrah_Narayan_Sinha.jpg",
+  },
+  {
+    id: "real-purna-swaraj-1930",
+    type: "document",
+    title: "The Purna Swaraj Declaration",
+    difficulty: "medium",
+    answer: "real",
+    date: "Adopted December 1929; publicly read 26 January 1930",
+    location: "Lahore; read out across India",
+    people: ["Jawaharlal Nehru"],
+    visual: {
+      kind: "quote",
+      excerpt:
+        "The British government in India has not only deprived the Indian people of their freedom but has based itself on the exploitation of the masses, and has ruined India economically, politically, culturally and spiritually... Therefore... India must sever the British connection and attain Purna Swaraj or complete independence.",
+      speaker: "Indian National Congress",
+      context: "Purna Swaraj Declaration — adopted at Lahore, December 1929; publicly read 26 January 1930",
+    },
+    explanation:
+      "Adopted at the Congress's Lahore session in December 1929, presided over by Jawaharlal Nehru, and publicly read out at gatherings across the country on 26 January 1930 — a date thereafter observed as Independence Day by the Congress until 1947, and later deliberately chosen as the date the Constitution came into force in 1950 (Republic Day) in homage to this pledge.",
+    whyReal:
+      "The resolution's text is preserved in Congress proceedings and has been reproduced continuously in independence-era historiography ever since.",
+    sourceName: "Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/Purna_Swaraj",
+  },
+  {
+    id: "real-bose-give-me-blood-1944",
+    type: "speech",
+    title: "\"Give Me Blood, and I Shall Give You Freedom\"",
+    difficulty: "easy",
+    answer: "real",
+    date: "4 July 1944",
+    location: "Burma",
+    people: ["Subhas Chandra Bose"],
+    visual: {
+      kind: "quote",
+      excerpt: "Give me blood, and I shall give you freedom!",
+      speaker: "Subhas Chandra Bose",
+      context: "Rally of Indians in Burma — 4 July 1944",
+    },
+    explanation:
+      "Delivered in Hindi at a rally of Indians in Burma to rally support and recruits for the Indian National Army's campaign against British rule, this line became one of the most widely quoted rallying cries of the entire independence movement.",
+    whyReal:
+      "The speech and this line are extensively documented in Bose's own broadcasts and contemporary INA records, making it one of the best-corroborated phrases attributed to him.",
+    sourceName: "Wikipedia",
+    sourceUrl: "https://en.wikipedia.org/wiki/Subhas_Chandra_Bose",
+  },
+  {
+    id: "real-ambedkar-constituent-assembly-1949",
+    type: "speech",
+    title: "Ambedkar's Closing Address to the Constituent Assembly",
+    difficulty: "hard",
+    answer: "real",
+    date: "25 November 1949",
+    location: "Constituent Assembly, New Delhi",
+    people: ["B. R. Ambedkar"],
+    visual: {
+      kind: "quote",
+      excerpt:
+        "It is not that India was once an independent country. The point is that she once lost the independence she had... she lost it by the infidelity and treachery of some of her own people... Will Indians place the country above their creed or will they place creed above country?... We must be determined to defend our independence with the last drop of our blood.",
+      speaker: "B. R. Ambedkar",
+      context: "Concluding address to the Constituent Assembly, New Delhi — 25 November 1949",
+    },
+    explanation:
+      "Delivered the day before the Constituent Assembly formally adopted the Constitution of India, Ambedkar — as chairman of the Drafting Committee — used his concluding address to warn against the dangers facing the new republic, among them the risk of placing communal or party loyalty above the nation.",
+    whyReal: "The speech is preserved in the Constituent Assembly Debates and has been widely reproduced since.",
+    sourceName: "Wikiquote",
+    sourceUrl: "https://en.wikiquote.org/wiki/B._R._Ambedkar",
+  },
+  {
+    id: "real-bombay-chronicle-1945",
+    type: "newspaper",
+    title: "The Bombay Chronicle, 22 January 1945",
+    difficulty: "medium",
+    answer: "real",
+    date: "22 January 1945",
+    location: "Bombay (Mumbai)",
+    visual: {
+      kind: "image",
+      src: "/artifacts/bombay-chronicle-1945.jpg",
+      alt: "Front page of The Bombay Chronicle, 22 January 1945",
+    },
+    explanation:
+      "The Bombay Chronicle was one of the most influential nationalist English-language dailies of the period, founded in 1913 with Pherozeshah Mehta's backing and long edited along a strongly pro-Congress line. This issue appeared in the final months of the Second World War, as political attention was turning back toward the postwar question of independence.",
+    whyReal: "The dated front page is preserved and catalogued as an original issue of the paper.",
+    sourceName: "Wikimedia Commons",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:The_Bombay_Chronicle,_22_January_1945_p1.jpg",
+  },
+  {
+    id: "real-awadh-recruitment-poster",
+    type: "propaganda",
+    title: "Appeal to the Brahmins and Rajputs of Awadh",
+    difficulty: "hard",
+    answer: "real",
+    date: "c. 1914–1918",
+    location: "Awadh (Oudh), United Provinces",
+    visual: {
+      kind: "image",
+      src: "/artifacts/awadh-recruitment-poster.jpg",
+      alt: "Urdu-language First World War recruitment poster appealing to the Brahmins and Rajputs of Awadh, citing the Bhagavad Gita",
+    },
+    explanation:
+      "A First World War recruitment appeal aimed at the Brahmin and Rajput communities of Awadh, printed in Urdu and invoking the Bhagavad Gita — Krishna's exhortation to Arjuna on the battlefield — to persuade young men to enlist. It was produced by the Association of Public Relations, Awadh, under a \"Special Officer of War Work,\" part of the same colonial recruitment drive that brought over a million Indian soldiers into the war.",
+    whyReal:
+      "The poster is printed by an identified press (Burqi Press) and sponsored by named colonial-era officials and organisations, and is held in the Imperial War Museums collection.",
+    sourceName: "Imperial War Museums, via Wikimedia Commons",
+    sourceUrl:
+      "https://commons.wikimedia.org/wiki/File:Appeal_to_the_Brahmins_and_Rajputs_of_Aauadh_(Urdu_text_poster)_Art.IWMPST12575.jpg",
+  },
 
   // ───────────────────────── AI-GENERATED ─────────────────────────
   {
@@ -591,6 +825,295 @@ export const artifacts: Artifact[] = [
       "No matching file can be located in the Home Department (Political) proceedings at the National Archives of India, nor in the standard published collections of Quit India-era official correspondence, despite those records being unusually well preserved.",
       "The memo is unsigned and undated beyond the month, and cites no file or docket number; real colonial administrative correspondence was compulsively numbered and filed.",
       "The phrase 'forestall any coordinated response' uses a more modern security-bureaucratic register than the stiffer, more Latinate administrative English typical of genuine 1942 Indian Civil Service correspondence.",
+    ],
+  },
+  {
+    id: "ai-photo-bonfire-cloth",
+    type: "photograph",
+    title: "Bonfire of Foreign Cloth",
+    difficulty: "medium",
+    answer: "ai",
+    generated: true,
+    date: "claimed: 1921",
+    location: "claimed: a district town, United Provinces",
+    visual: {
+      kind: "illustration",
+      render: "crowd-photo",
+      variant: 4,
+      caption: "A crowd gathers around a bonfire of foreign cloth during the Non-Cooperation Movement.",
+    },
+    explanation:
+      "This presents itself as a photograph of a common ritual of the 1921 Non-Cooperation Movement: public bonfires of foreign cloth, where volunteers surrendered imported garments to be burned as a symbol of the swadeshi boycott.",
+    historicalContext:
+      "Bonfires of foreign cloth were genuinely widespread in 1921, with even senior political figures publicly burning imported clothing, and the ritual was heavily photographed and reported at the time — which is exactly why a fabricated version fits so easily among the real record.",
+    deceptionDetails: [
+      "The smoke from the fire rises in two different directions at once, implying two separate wind currents within the same frame.",
+      "Several onlookers at the right edge of the crowd share an identical stance and outline, a sign of a duplicated rather than photographed group.",
+      "No caption, location or press credit for this specific bonfire could be matched to any 1921 newspaper report, despite the ritual being one of the most heavily covered events of the period.",
+    ],
+  },
+  {
+    id: "ai-photo-protest-march",
+    type: "photograph",
+    title: "Marchers Carry a Banner Through the Old City",
+    difficulty: "easy",
+    answer: "ai",
+    generated: true,
+    date: "claimed: 1930",
+    location: "claimed: an old city quarter, North India",
+    visual: {
+      kind: "illustration",
+      render: "crowd-photo",
+      variant: 5,
+      caption: "A column of marchers carries a long banner through a narrow street.",
+    },
+    explanation:
+      "This presents itself as a photograph of a civil disobedience march passing through a city's old quarter behind a long, hand-painted banner — a common scene from 1930s protest marches.",
+    historicalContext:
+      "Marches behind banners and placards were a genuine and constant feature of civil disobedience protests through the 1930s and 40s, photographed by both nationalist and colonial observers, which makes the general shape of this scene highly plausible.",
+    deceptionDetails: [
+      "The banner's supporting poles bend at an angle the banner's own visible tension would make structurally impossible.",
+      "The buildings lining the street lean inward toward two different, inconsistent vanishing points rather than converging on a single perspective as a real photograph would.",
+      "Marchers near the back of the column shrink faster than the street's gentle, gradual perspective would account for — a common depth-of-field error.",
+    ],
+  },
+  {
+    id: "ai-poster-vande-mataram",
+    type: "poster",
+    title: "\"Vande Mataram\" Campaign Poster",
+    difficulty: "medium",
+    answer: "ai",
+    generated: true,
+    date: "claimed: 1930",
+    location: "claimed: undisclosed",
+    visual: {
+      kind: "illustration",
+      render: "poster",
+      variant: 5,
+      tone: "campaign",
+      headline: "VANDE MATARAM",
+      tagline: "Mother, I Bow to Thee",
+    },
+    explanation:
+      "This poster presents itself as nationalist material built around \"Vande Mataram\" (\"I bow to thee, Mother\"), the hymn to the motherland that became an anthem of the independence movement and a rallying cry at protests through the 1930s and 40s.",
+    historicalContext:
+      "\"Vande Mataram\" genuinely was ubiquitous on real nationalist print material of the period — chanted at marches, printed on pamphlets and posters — so an invented poster built around the phrase fits comfortably alongside the authentic print culture of the movement.",
+    deceptionDetails: [
+      "The phrase is rendered in a Latin-alphabet decorative typeface rather than any Indian script, something no genuine period poster aimed at an Indian audience would do.",
+      "The border pattern repeats a perfectly regular digital dash rather than the slightly uneven hand-set type ornaments used in period letterpress printing.",
+      "No poster matching this design appears in any of the major partition-and-independence poster collections held by Indian or UK archives.",
+    ],
+  },
+  {
+    id: "ai-poster-salt-satyagraha",
+    type: "poster",
+    title: "\"Join the Salt Satyagraha\" Poster",
+    difficulty: "easy",
+    answer: "ai",
+    generated: true,
+    date: "claimed: 1930",
+    location: "claimed: Gujarat",
+    visual: {
+      kind: "illustration",
+      render: "poster",
+      variant: 4,
+      tone: "campaign",
+      headline: "JOIN THE SALT SATYAGRAHA",
+      tagline: "Break the Law. Make the Salt.",
+    },
+    explanation:
+      "This presents itself as a local call-to-action poster from 1930 urging villagers along the Salt March's route to join Gandhi's campaign to break the salt laws.",
+    historicalContext:
+      "Real handbills and local appeals genuinely circulated along the Salt March's route as it grew from 78 marchers to thousands by the time it reached Dandi, so a fabricated call-to-action poster from the same campaign is highly plausible.",
+    deceptionDetails: [
+      "The emblem again uses the 24-spoke Ashoka Chakra wheel, a symbol that would not exist publicly for another 17 years.",
+      "The tagline's short, punchy imperative phrasing ('Break the Law. Make the Salt.') mirrors modern advertising copywriting rhythms rather than the longer, more formal appeals typical of 1930s nationalist print.",
+      "No item matching this poster's design appears in any catalogued collection of Salt March-era ephemera.",
+    ],
+  },
+  {
+    id: "ai-propaganda-curfew-1930",
+    type: "propaganda",
+    title: "Curfew Notice, 1930",
+    difficulty: "medium",
+    answer: "ai",
+    generated: true,
+    date: "claimed: April 1930",
+    location: "claimed: Gujarat",
+    visual: {
+      kind: "illustration",
+      render: "poster",
+      variant: 3,
+      tone: "notice",
+      headline: "CURFEW NOTICE",
+      tagline: "No person shall assemble in groups of more than five.",
+    },
+    explanation:
+      "This presents itself as a colonial government curfew order issued in response to the unrest following the Salt March and the arrests that followed Gandhi's breaking of the salt laws in April 1930.",
+    historicalContext:
+      "The colonial government did impose real curfews and prohibitory orders in Gujarat and elsewhere as civil disobedience spread after the Salt March, so the genre and timing are both entirely plausible.",
+    deceptionDetails: [
+      "The order cites 'Section 144' by that shorthand — genuinely in use at the time — but the specific combination of penalties listed does not match the actual Criminal Procedure Code provisions in force in Bombay Presidency in 1930.",
+      "No matching order appears in the Bombay Presidency's published administrative reports for April 1930, despite those records being comprehensive for the period.",
+      "The typeface mixes two distinct type styles inconsistently within the same printed notice, something a single government press run would not produce.",
+    ],
+  },
+  {
+    id: "ai-propaganda-loyalty-poster",
+    type: "propaganda",
+    title: "\"Loyalty Pays\" War Poster",
+    difficulty: "hard",
+    answer: "ai",
+    generated: true,
+    date: "claimed: 1942",
+    location: "claimed: undisclosed",
+    visual: {
+      kind: "illustration",
+      render: "poster",
+      variant: 6,
+      tone: "campaign",
+      headline: "LOYALTY PAYS",
+      tagline: "Stand With the Empire in Its Hour of Need",
+    },
+    explanation:
+      "This presents itself as a colonial-government propaganda poster from 1942 urging Indians to remain loyal to the British war effort during the Quit India crisis, offering an implicit promise of postwar reward.",
+    historicalContext:
+      "The colonial government did run real loyalty and war-support campaigns through 1942, especially aimed at princely states, the civil service and the army, so a poster on this exact theme is highly plausible.",
+    deceptionDetails: [
+      "No poster with this slogan appears in the Imperial War Museums' or British Library's catalogued holdings of Indian-market wartime propaganda, despite those collections being extensive for 1942.",
+      "The word 'Empire' is set in a heavier, more modern slab-serif weight than the rest of the poster, inconsistent with a single period print run.",
+      "The phrase 'Loyalty Pays' uses a commercial-advertising register more typical of later 20th-century campaigns than 1940s colonial messaging, which favoured more formal appeals to duty.",
+    ],
+  },
+  {
+    id: "ai-newspaper-punjab-tribune",
+    type: "newspaper",
+    title: "\"The Punjab Tribune-Extra\" Special Edition",
+    difficulty: "medium",
+    answer: "ai",
+    generated: true,
+    date: "claimed: 13 April 1930",
+    location: "claimed: Lahore",
+    visual: {
+      kind: "illustration",
+      render: "newspaper",
+      variant: 1,
+      masthead: "THE PUNJAB TRIBUNE-EXTRA",
+      headline: "ELEVENTH ANNIVERSARY OF JALLIANWALA BAGH MARKED ACROSS PUNJAB",
+      dateline: "13 April 1930",
+    },
+    explanation:
+      "This presents itself as a special edition marking the eleventh anniversary of the 1919 Jallianwala Bagh massacre, reporting commemorations held across Punjab on 13 April 1930.",
+    historicalContext:
+      "The Jallianwala Bagh anniversary genuinely was marked publicly and reported in the Indian press every year through this period, and 13 April 1930 fell just a month into the Salt March-era civil disobedience movement, when such commemorations carried particular political charge — a real and plausible news hook.",
+    deceptionDetails: [
+      "No paper called The Punjab Tribune-Extra appears in the historical listings of Punjab's newspaper registry; a real paper called The Tribune existed and still does, but under a different, unhyphenated name.",
+      "The masthead's typeface uses uniform digital letterspacing that period hot-metal typesetting could not reliably reproduce at that size.",
+      "The dateline and masthead are set in perfectly even black, while genuine surviving newsprint from this date shows visibly uneven ink density across the page.",
+    ],
+  },
+  {
+    id: "ai-speech-nehru-fabricated",
+    type: "speech",
+    title: "Broadcast on the Eve of Elections",
+    difficulty: "medium",
+    answer: "ai",
+    generated: true,
+    date: "claimed: 1945",
+    location: "claimed: All India Radio broadcast",
+    visual: {
+      kind: "quote",
+      excerpt:
+        "Freedom is not a gift that is handed down from above; it is a debt that a people collect from history, in instalments, at a price fixed by their own courage.",
+      speaker: "attributed to Jawaharlal Nehru",
+      context: "claimed: All India Radio broadcast, 1945",
+    },
+    explanation:
+      "This presents itself as a radio broadcast by Nehru on the eve of the 1945–46 provincial elections, in the reflective, literary register associated with his real writing and speeches.",
+    historicalContext:
+      "Nehru did give real radio broadcasts and wrote extensively in this kind of reflective, aphoristic style — most famously in The Discovery of India, written in this same period — which is exactly what makes a well-turned pastiche in his voice so hard to rule out on style alone.",
+    deceptionDetails: [
+      "No transcript of this broadcast appears in All India Radio's surviving 1945 programme logs or in any contemporary press digest of Nehru's public statements.",
+      "The metaphor of freedom as a 'debt collected in instalments' appears in none of Nehru's published speeches, letters or books, despite his extensive and well-archived body of writing.",
+      "The sentence's balanced, epigrammatic construction is consistent with how modern language models are often prompted to imitate 'inspirational' rhetoric, rather than the more discursive, argumentative style of Nehru's actual broadcasts.",
+    ],
+  },
+  {
+    id: "ai-speech-patel-fabricated",
+    type: "speech",
+    title: "Address on the Integration of the States",
+    difficulty: "hard",
+    answer: "ai",
+    generated: true,
+    date: "claimed: 1948",
+    location: "claimed: New Delhi",
+    visual: {
+      kind: "quote",
+      excerpt:
+        "A throne is a small thing to surrender when the prize is a nation. I ask no prince to lose his dignity — only to trade a private crown for a shared one.",
+      speaker: "attributed to Vallabhbhai Patel",
+      context: "claimed: address to a gathering of princely rulers, 1948",
+    },
+    explanation:
+      "This presents itself as an address by Sardar Patel, in his role overseeing the integration of India's princely states, persuading a gathering of rulers to accede to the Indian Union.",
+    historicalContext:
+      "Patel really did conduct exactly this kind of persuasion — through a mix of private negotiation, public pressure and the offer of privy purses — to bring over 500 princely states into the Union between 1947 and 1949, which is what makes a plausible-sounding version of such an appeal so easy to mistake for a real one.",
+    deceptionDetails: [
+      "No record of this specific address appears in the Sardar Patel Papers or in contemporary press coverage of the states integration process, despite that process being unusually well documented.",
+      "The line's tidy, symmetrical phrasing ('a private crown for a shared one') is more consistent with a modern rhetorical flourish than Patel's real recorded speaking style, which was famously blunt and unornamented.",
+      "The claimed setting — a single address to 'a gathering of princely rulers' — doesn't match the historical record, in which integration was negotiated overwhelmingly through individual and regional meetings rather than one mass gathering.",
+    ],
+  },
+  {
+    id: "ai-letter-quit-india-volunteer",
+    type: "letter",
+    title: "Letter from an Underground Volunteer",
+    difficulty: "medium",
+    answer: "ai",
+    generated: true,
+    date: "claimed: September 1942",
+    location: "claimed: Bombay",
+    visual: {
+      kind: "quote",
+      excerpt:
+        "Do not ask where I am sleeping tonight, sister, only that I am still free. The radio set is safe, and so is the man who reads the news each evening. Tell no one I have written, and burn this after.",
+      speaker: "attributed to an unnamed woman volunteer, to her sister",
+      context: "claimed: written from hiding during the Quit India underground, September 1942",
+    },
+    explanation:
+      "This presents itself as a letter smuggled out by a woman active in the Quit India underground — the network of activists who kept the movement alive after its senior leadership was arrested in August 1942, including by running secret radio broadcasts.",
+    historicalContext:
+      "The underground movement, and secret broadcasts like Usha Mehta's Congress Radio, were genuinely real and relied heavily on women organisers operating exactly this kind of clandestine network, which is what makes an invented letter from within it so plausible.",
+    deceptionDetails: [
+      "The letter survives with no envelope, censor's mark, or provenance trail of any kind; real underground correspondence that has entered the historical record typically does so via a named family archive, memoir, or specific collection, none of which exists here.",
+      "Both the writer and her sister are left permanently unnamed, and the letter names no verifiable street, safehouse or radio operator — every detail specific enough to check has been carefully left out.",
+      "The instruction to 'burn this after' is a common dramatic device in invented underground narratives; a letter that was actually burned, by definition, could not have survived to become an artifact.",
+    ],
+  },
+  {
+    id: "ai-document-salt-march-telegram",
+    type: "document",
+    title: "Telegram on the Salt March's Progress",
+    difficulty: "hard",
+    answer: "ai",
+    generated: true,
+    date: "claimed: March 1930",
+    location: "claimed: Bombay Presidency",
+    visual: {
+      kind: "quote",
+      excerpt:
+        "URGENT. Marchers now numbering approximately four thousand. Local police report growing sympathy among village populations en route. Request instructions on whether interception before Dandi is authorised or whether march should be permitted to proceed unimpeded.",
+      speaker: "attributed to an unnamed District Superintendent of Police",
+      context: "claimed: confidential telegram to Bombay Presidency headquarters, March 1930",
+    },
+    explanation:
+      "This presents itself as a leaked confidential police telegram sent while the Salt March was under way, reporting on its growing size and asking for instructions on whether to intervene before it reached the coast.",
+    historicalContext:
+      "The colonial government genuinely did monitor the march closely and debated whether to arrest Gandhi before it reached Dandi, ultimately deciding not to intervene — a real, well-documented policy dilemma that this fabricated telegram plausibly dramatises.",
+    deceptionDetails: [
+      "No matching telegram can be located in the Bombay Presidency police proceedings or the Home Department's Salt Satyagraha-era files held at the National Archives of India, despite those records being unusually complete for this exact episode.",
+      "The telegram carries no reference number, sender's post, or transmission timestamp; every real surviving police telegram from this period was logged with all three as a matter of standard procedure.",
+      "The estimate of 'four thousand' marchers does not match any of the marcher counts recorded in contemporary press reports or in Gandhi's own later account of the march's growth at each stage.",
     ],
   },
 ];

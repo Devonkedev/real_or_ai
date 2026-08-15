@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
  * skew, foxing stains, an inked (not vector-perfect) border, and deckled
  * edges.
  */
-const ROTATIONS: Record<number, number> = { 1: -1.6, 2: 1.1, 3: -0.9, 4: 1.4 };
+const ROTATIONS: Record<number, number> = { 1: -1.6, 2: 1.1, 3: -0.9, 4: 1.4, 5: -1.1, 6: 0.8 };
 
 // Real bazaar-art and painted posters of the period were often hand-tinted
 // in fairly saturated colour, not monochrome — a muted, uniformly sepia
@@ -23,6 +23,8 @@ const ACCENTS: Record<number, { deep: string; mid: string; wash: string }> = {
   2: { deep: "#20524a", mid: "#3c6f5e", wash: "rgba(32,82,74,0.14)" },
   3: { deep: "#2a3a52", mid: "#48607e", wash: "rgba(42,58,82,0.12)" },
   4: { deep: "#5c3a1e", mid: "#8a5a30", wash: "rgba(140,90,48,0.15)" },
+  5: { deep: "#2f4a24", mid: "#4f6f3e", wash: "rgba(47,74,36,0.14)" },
+  6: { deep: "#463a5c", mid: "#6a5a86", wash: "rgba(70,58,92,0.13)" },
 };
 
 export function PosterIllustration({
@@ -31,7 +33,7 @@ export function PosterIllustration({
   headline,
   tagline,
 }: {
-  variant: 1 | 2 | 3 | 4;
+  variant: 1 | 2 | 3 | 4 | 5 | 6;
   tone?: "campaign" | "notice";
   headline?: string;
   tagline?: string;
@@ -41,30 +43,30 @@ export function PosterIllustration({
   const accent = ACCENTS[variant];
 
   return (
-    <div className={cn("relative h-full w-full overflow-hidden", notice ? "bg-[#8f8672]" : "bg-[#7c6f52]")}>
+    <div className={cn("relative h-full w-full overflow-hidden", notice ? "bg-[#5f5d56]" : "bg-[#57554e]")}>
       {/* uneven ambient lighting, as if photographed rather than exported */}
       <div
         className="pointer-events-none absolute inset-0 z-20"
         style={{
           background:
-            "linear-gradient(115deg, rgba(255,250,235,0.18) 0%, rgba(255,250,235,0.03) 35%, rgba(20,15,8,0.05) 65%, rgba(20,15,8,0.22) 100%)",
+            "linear-gradient(115deg, rgba(255,250,240,0.14) 0%, rgba(255,250,240,0.02) 35%, rgba(10,10,8,0.05) 65%, rgba(10,10,8,0.2) 100%)",
         }}
       />
       <div
         className="pointer-events-none absolute inset-0 z-20"
         style={{
-          background: "radial-gradient(ellipse at 50% 105%, rgba(10,8,4,0.35), transparent 60%)",
+          background: "radial-gradient(ellipse at 50% 105%, rgba(8,8,6,0.32), transparent 60%)",
         }}
       />
 
       <div
-        className="paper-grain absolute inset-[5%] flex flex-col items-center justify-center gap-4 px-6 py-8 text-center shadow-[0_10px_24px_-8px_rgba(10,8,4,0.5)] sm:gap-5 sm:px-10"
+        className="paper-grain absolute inset-[1.5%] flex flex-col items-center justify-center gap-4 px-6 py-8 text-center shadow-[0_10px_24px_-8px_rgba(10,8,4,0.5)] sm:gap-5 sm:px-10"
         style={{
-          transform: `rotate(${rotation}deg)`,
-          backgroundColor: notice ? "#e7ded0" : "#e9dcb8",
+          transform: `rotate(${rotation}deg) scale(1.03)`,
+          backgroundColor: notice ? "#e2dbcd" : "#dfd6c0",
           backgroundImage: notice
-            ? "radial-gradient(circle at 14% 18%, rgba(110,82,36,0.16), transparent 38%), radial-gradient(circle at 88% 78%, rgba(90,68,28,0.18), transparent 34%), radial-gradient(circle at 65% 8%, rgba(70,52,20,0.1), transparent 30%), radial-gradient(circle at 8% 85%, rgba(70,52,20,0.12), transparent 32%)"
-            : `radial-gradient(circle at 50% 32%, ${accent.wash}, transparent 55%), radial-gradient(circle at 14% 18%, rgba(110,82,36,0.14), transparent 38%), radial-gradient(circle at 88% 78%, rgba(90,68,28,0.16), transparent 34%), radial-gradient(circle at 8% 85%, rgba(70,52,20,0.1), transparent 32%)`,
+            ? "radial-gradient(circle at 14% 18%, rgba(90,80,60,0.12), transparent 38%), radial-gradient(circle at 88% 78%, rgba(80,70,50,0.14), transparent 34%), radial-gradient(circle at 65% 8%, rgba(60,52,36,0.08), transparent 30%), radial-gradient(circle at 8% 85%, rgba(60,52,36,0.1), transparent 32%)"
+            : `radial-gradient(circle at 50% 32%, ${accent.wash}, transparent 55%), radial-gradient(circle at 14% 18%, rgba(90,78,54,0.12), transparent 38%), radial-gradient(circle at 88% 78%, rgba(80,68,46,0.13), transparent 34%), radial-gradient(circle at 8% 85%, rgba(60,52,36,0.09), transparent 32%)`,
           clipPath:
             "polygon(0.5% 1.8%, 3% 0.3%, 97.2% 0.8%, 99.5% 2.6%, 99.2% 97.4%, 96.5% 99.6%, 2.4% 99.1%, 0.3% 96.8%)",
         }}

@@ -21,26 +21,26 @@ export function NewspaperIllustration({
 }) {
   const rotation = variant === 1 ? -1.2 : 0.9;
   return (
-    <div className="relative h-full w-full overflow-hidden bg-[#736a53]">
+    <div className="relative h-full w-full overflow-hidden bg-[#57554e]">
       <div
         className="pointer-events-none absolute inset-0 z-20"
         style={{
           background:
-            "linear-gradient(108deg, rgba(255,250,235,0.16) 0%, rgba(255,250,235,0.02) 32%, rgba(20,15,8,0.05) 62%, rgba(20,15,8,0.2) 100%)",
+            "linear-gradient(108deg, rgba(255,250,240,0.13) 0%, rgba(255,250,240,0.02) 32%, rgba(10,10,8,0.05) 62%, rgba(10,10,8,0.18) 100%)",
         }}
       />
       <div
         className="pointer-events-none absolute inset-0 z-20"
-        style={{ background: "radial-gradient(ellipse at 50% 108%, rgba(10,8,4,0.32), transparent 58%)" }}
+        style={{ background: "radial-gradient(ellipse at 50% 108%, rgba(8,8,6,0.3), transparent 58%)" }}
       />
 
       <div
-        className="paper-grain absolute inset-[4%] flex flex-col overflow-hidden p-4 shadow-[0_10px_24px_-8px_rgba(10,8,4,0.5)] sm:p-6"
+        className="paper-grain absolute inset-[1.5%] flex flex-col overflow-hidden p-4 shadow-[0_10px_24px_-8px_rgba(10,8,4,0.5)] sm:p-6"
         style={{
-          transform: `rotate(${rotation}deg)`,
-          backgroundColor: "#f0e7cd",
+          transform: `rotate(${rotation}deg) scale(1.03)`,
+          backgroundColor: "#e6ddc6",
           backgroundImage:
-            "radial-gradient(circle at 10% 12%, rgba(110,82,36,0.14), transparent 36%), radial-gradient(circle at 92% 82%, rgba(90,68,28,0.16), transparent 32%), radial-gradient(circle at 70% 95%, rgba(70,52,20,0.1), transparent 28%)",
+            "radial-gradient(circle at 10% 12%, rgba(90,78,54,0.12), transparent 36%), radial-gradient(circle at 92% 82%, rgba(80,68,46,0.13), transparent 32%), radial-gradient(circle at 70% 95%, rgba(60,52,36,0.08), transparent 28%)",
           clipPath:
             "polygon(0.4% 2%, 2.8% 0.4%, 97.4% 0.9%, 99.6% 2.8%, 99.1% 97.2%, 96.8% 99.5%, 2.2% 99.2%, 0.2% 96.6%)",
         }}
